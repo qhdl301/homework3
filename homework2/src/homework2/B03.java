@@ -73,7 +73,6 @@ public class B03 {
     	else if(i==12)
     	{
     		this.day_count=this.day_count+31;
-    	
     	}
       }
     	this.day_count = day_count+day;
