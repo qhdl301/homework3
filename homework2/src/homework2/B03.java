@@ -75,14 +75,20 @@ public class B03 {
     		this.day_count=this.day_count+31;
     		
     	}
-    	else if(i>12)
-    	{
-    		System.out.println("잘못입력하셨습니다.");
+    
+    	this.day_count = day_count+day;
+    	while (this.month<=12)  
+    	{        		
+    			System.out.println("이 날짜는 1년 중"+day_count+"해당됩니다");  
+    	    		break;  
+    	  	}  
+    	while (this.month>12)  
+    	{        		
+    			System.out.println("잘못된입력입니다.");  
+    	    		break;  
+    	  	}  
     	}
     
-    	}
-    	this.day_count = day_count+day;
-    	System.out.println("이 날짜는 1년 중"+day_count+"해당됩니다");
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
