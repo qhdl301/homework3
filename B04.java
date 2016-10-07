@@ -1,4 +1,3 @@
-package com.test;
 import java.util.*;
 public class B04 {
 	double num;
